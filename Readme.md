@@ -3,6 +3,10 @@ Eclipse Online recipe for Calibre
 
 [Eclipse Online](http://www.nightshadebooks.com/category/eclipse/) is a free short fiction publication edited by [Jonathan Strahan](http://www.jonathanstrahan.com.au) and published online by [Night Shade Books](http://www.nightshadebooks.com/). [Calibre](http://www.calibre-ebook.com/) is a free and open source ebook library management program, extensible with "recipes" for assembling ebooks from arbitrary sources. This repository contains a Calibre recipe to compile an ebook from recent installments of Eclipse Online. Now you can read "the rare and unusual, the strange and eldritch" on your Kindle or other e-reader.
 
+[![Screenshots of Eclipse Online ebook on Kindle and iPhone](https://raw.github.com/anoved/Eclipse-Online-Recipe/master/Screenshots/ThumbnailEreaderScreenshots.png)](https://github.com/anoved/Eclipse-Online-Recipe/tree/master/Screenshots)
+
+The screenshots above depict an Eclipse Online ebook created with this recipe as viewed with a Kindle 3 and an iOS ereader app. (Note that the `oldest_article` variable discussed below was increased to include more than one month of content in this example.)
+
 Disclaimer
 ----------
 
@@ -27,3 +31,4 @@ To schedule ebook downloads:
 2. Select *Eclipse Online* from the *Custom* recipe category.
 3. Check *Schedule for download*. I recommend selecting *Days of month* and entering *1* in the *Days of the month* field, as pictured below. Click *Save*. Together with the default 32-day download window mentioned above, this will result in "monthly issues" of Eclipse Online. (Alternatively, you can just click *Download now* to retrieve copies manually.)
 
+[![Eclipse Online recipe schedule setup screenshot](https://raw.github.com/anoved/Eclipse-Online-Recipe/master/Screenshots/CalibreSchedule.png)](https://github.com/anoved/Eclipse-Online-Recipe/blob/master/Screenshots/CalibreSchedule.png)
