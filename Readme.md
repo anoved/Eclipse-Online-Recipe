@@ -18,7 +18,7 @@ Installation
 To add this recipe to Calibre:
 
 1. Select *Add a custom news source* from the *Fetch news* menu.
-2. Click *Load recipe from file* and select `eclipseonline.recipe`, downloaded from this repository.
+2. Click *Load recipe from file* and select [`eclipseonline.recipe`](https://raw.github.com/anoved/Eclipse-Online-Recipe/master/eclipseonline.recipe), downloaded from this repository.
 
 By default, the recipe will only download content posted in the last month. You can increase the value of the `oldest_article` variable to retrieve older posts. However, the Eclipse Online RSS feed currently only provides links to the 10 most recent posts, making that the maximum that can be retrieved by this recipe.
 
@@ -29,6 +29,6 @@ To schedule ebook downloads:
 
 1. Select *Schedule news download* from the *Fetch news* menu.
 2. Select *Eclipse Online* from the *Custom* recipe category.
-3. Check *Schedule for download*. I recommend selecting *Days of month* and entering *1* in the *Days of the month* field, as pictured below. Click *Save*. Together with the default 32-day download window mentioned above, this will result in "monthly issues" of Eclipse Online. (Alternatively, you can just click *Download now* to retrieve copies manually.)
+3. Check *Schedule for download*. I recommend selecting *Days of month* and entering *1* in the *Days of the month* field, as pictured below. Click *Save*. Together with the default `oldest_article` interval mentioned above, this will result in "monthly issues" of Eclipse Online. (Alternatively, you can just click *Download now* to retrieve copies manually.)
 
 [![Eclipse Online recipe schedule setup screenshot](https://raw.github.com/anoved/Eclipse-Online-Recipe/master/Screenshots/CalibreSchedule.png)](https://github.com/anoved/Eclipse-Online-Recipe/blob/master/Screenshots/CalibreSchedule.png)
